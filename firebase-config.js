@@ -1,12 +1,8 @@
-// 1) Cole aqui a configuração do seu app web (Console do Firebase > Configurações do projeto > Seus apps > Config).
-//    Essa configuração NÃO é segredo: quem protege os dados são as regras (firestore.rules e database.rules.json).
 window.FIREBASE_CONFIG = {
-  apiKey: "COLE_AQUI",
-  authDomain: "SEU-PROJETO.firebaseapp.com",
-  databaseURL: "https://SEU-PROJETO-default-rtdb.firebaseio.com",
-  projectId: "SEU-PROJETO",
-  appId: "COLE_AQUI"
+  apiKey: "AIzaSyDJ6n6LlYAH2NJKvHxkLesaTqYVbvtyC8E",
+  authDomain: "life-326d1.firebaseapp.com",
+  databaseURL: "https://life-326d1-default-rtdb.firebaseio.com",
+  projectId: "life-326d1",
+  appId: "1:379205462524:web:1a6aa6fbf4f54cc5932a79"
 };
-// 2) Seu UID (Console > Authentication > Usuários, depois de entrar uma vez no jogo). Só esse UID vê o ✕ de moderação.
-//    Coloque o MESMO UID em firestore.rules.
 window.TRILHO_ADMIN_UID = "";
